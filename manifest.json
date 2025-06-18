@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "KI Prompt Generator",
+    "version": "1.0.0",
+    "description": "A simple extension that generates a prompt for the KI",
+    "background": {
+        "service_worker": "service_worker.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+}
